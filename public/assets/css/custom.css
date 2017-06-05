@@ -1,0 +1,26 @@
+.profile {
+    border: 2px solid white;
+    border-radius: 1em;
+    height: 150px;
+    width: 100%;
+    padding: 1em;
+}
+
+.headshot {
+    height: 100%;
+    float: left;
+    vertical-align: center;
+    border-radius: 20%;
+    border: 2px solid white;
+}
+
+.quote {
+    float: left;
+    vertical-align: center;
+    margin-left: 1em;
+    padding: 1em;
+    padding-top: .4em;
+    font-size: 1.3em;
+    width: 50%;
+    height: 100%
+}

@@ -45,6 +45,12 @@ export default function App () {
             // <span className="image main"><img src="images/girl.png" alt="" /></span>
             // <p>Jason Wang | CTO </p>
           }
+          <div className="profile">
+            <img src="images/jason.png" alt="" className="headshot" />
+            <blockquote className="quote"><strong>Jason Wang</strong><br />
+            CTO<br />
+            <em>I build shit.</em></blockquote>
+          </div>
 
         </article>
 
