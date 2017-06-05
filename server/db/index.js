@@ -12,6 +12,8 @@ const options = {
   pass: DATABASE_PASSWORD
 };
 
+console.log(DATABASE_USER, DATABASE_PASSWORD)
+
 mongoose.Promise = require('bluebird');
 console.log(chalk.yellow('Opening connection to MongoDB', DATABASE_URI));
 module.exports = mongoose.connect(DATABASE_URI, options);
