@@ -4,7 +4,7 @@ const chalk = require('chalk');
 const DATABASE_URI = require(path.join(__dirname, '../env')).DATABASE_URI;
 
 mongoose.Promise = require('bluebird');
-console.log(chalk.yellow('Opening connection to MongoDB'));
+console.log(chalk.yellow('Opening connection to MongoDB', DATABASE_URI));
 module.exports = mongoose.connect(DATABASE_URI);
 
 const db = mongoose.connection;
