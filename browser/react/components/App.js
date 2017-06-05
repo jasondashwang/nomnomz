@@ -34,7 +34,7 @@ export default function App () {
           <span className="image main"><img src="images/banner.jpg" alt="" /></span>
           <h3>Approach</h3>
           <p>We apply the scientific method to the food industry. Some call us systemic, but data and technology drive our business. The aim is to modernize the food industry through digitizing its operations and management from top to bottom. We provide and implement a simple yet robust order management system to refine an outdated industry method.</p>
-
+          <hr />
           <h3>Impact</h3>
           <p>We use technology to help create value for real people: Businesses can detect and eliminate deficiencies, significantly raising revenue. Customers enjoy a basic yet streamlined ordering experience. Small businesses and institutions are just some of the people who can ultimately benefit from our work.</p>
         </article>
