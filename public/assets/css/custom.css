@@ -1,7 +1,7 @@
 .profile {
     border: 2px solid white;
     border-radius: 1em;
-    height: 150px;
+    height: 8em;
     width: 100%;
     padding: 1em;
 }
@@ -16,8 +16,8 @@
 .quote {
     float: left;
     margin-left: 1em;
-    font-size: 18px;
     width: 50%;
     height: 100%;
+    font-size: 1.15em;
     line-height: 1.3em;
 }
