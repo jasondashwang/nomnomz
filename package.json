@@ -5,7 +5,7 @@
   "main": "server/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --config ./webpack.config.js",
+    "postinstall": "webpack --config ./webpack.config.js",
     "start": "node ./server/main",
     "dev-start": "webpack -w & nodemon --watch server -e js,html server/main.js"
   },
