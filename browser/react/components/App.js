@@ -46,19 +46,19 @@ export default function App () {
             <img src="images/matt.jpg" alt="" className="headshot" />
             <blockquote className="quote"><strong>Matthew DiMarcantonio</strong><br />
             CEO<br />
-            <em>"I start stuff."</em></blockquote>
+            <em>"I start."</em></blockquote>
           </div>
           <div className="profile">
             <img src="images/jason.png" alt="" className="headshot" />
             <blockquote className="quote"><strong>Jason Wang</strong><br />
             CTO<br />
-            <em>"I build stuff."</em></blockquote>
+            <em>"I build."</em></blockquote>
           </div>
           <div className="profile">
             <img src="images/alan.png" alt="" className="headshot" />
             <blockquote className="quote"><strong>Alan Yoho</strong><br />
             CMO<br />
-            <em>"I sell stuff."</em></blockquote>
+            <em>"I sell."</em></blockquote>
           </div>
 
 
